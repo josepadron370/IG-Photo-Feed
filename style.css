@@ -5,12 +5,26 @@ body {
 
 header {
     background: white;
+    padding: 10px;
 }
 
 header h1 {
     margin: 0;
 }
 
+div.container {
+    margin: auto;
+    width: 600px;
+}
+
 div.post {
     background: white;
+}
+
+div.post img {
+    width: 100%;
+}
+
+div.post h2, div.post p {
+    padding: 10px;
 }
